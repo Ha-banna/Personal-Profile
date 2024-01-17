@@ -1,6 +1,6 @@
 header{
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -14,4 +14,20 @@ header{
     padding: 0;
     margin: auto;
     height: 1px
+}
+
+.nav-cont{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+
+.logo-img{
+    width: 50px;
+    aspect-ratio: 1/1;
+    user-select: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
