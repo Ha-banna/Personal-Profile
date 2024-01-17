@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.hr{
+    width: 60%;
+    border-color: chartreuse;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}

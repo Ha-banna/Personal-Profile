@@ -1,0 +1,20 @@
+.button-design{
+    font-weight: 600;
+    font-size: 14px;
+    color: chartreuse;
+    background-color: black;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button-design:hover{
+    border: 2px solid chartreuse;
+    transition: 0.2s;
+}
