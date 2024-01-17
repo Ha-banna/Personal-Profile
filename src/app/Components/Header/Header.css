@@ -9,8 +9,9 @@ header{
 
 .hr{
     width: 60%;
-    border-color: chartreuse;
+    background-color: chartreuse;
     margin: 0;
     padding: 0;
     margin: auto;
+    height: 1px
 }

@@ -8,11 +8,15 @@ function App() {
 
   return (
     <>
-      <Header></Header>
       <Router>
-        <Routes>
-          <Route path='/' element={<Home></Home>}/>
-        </Routes>
+        <>
+          <Header></Header>
+          
+            <Routes>
+              <Route path='/' element={<Home></Home>}/>
+            </Routes>
+          
+        </>
       </Router>
     </>
   )
