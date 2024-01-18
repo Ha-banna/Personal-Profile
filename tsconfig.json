@@ -1,5 +1,7 @@
 {
+  
   "compilerOptions": {
+    "typeRoots": ["./src/react-app-env", "jest", "node"],
     "target": "es5",
     "lib": [
       "dom",

@@ -2,52 +2,26 @@
     border-radius: 10px;
     border: 2px solid chartreuse;
     transition: 0.4s;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    object-fit: cover;
-    height: 200px;
-    width: 150px;
+    height: 100px;
+    width: 250px;
     cursor: pointer;
-    color: transparent;
+    color: white;
+    background: linear-gradient(130deg, transparent, transparent, chartreuse, rgb(33, 141, 0));
+    background-size: 400%;
 }
 
 .card:hover {
     color: black;
     transform: scale(1.1);
+    background-position: 100% 100%;
     transition: 0.2s;
-}
-
-.card-image {
-    height: 200px;
-    transition: 0.4s;
 }
 
 .project-name {
-    position: absolute;
     text-wrap: pretty;
-}
-
-.card-inner-cont {
-    color: transparent;
-    position: relative;
-    transition: 0.4s;
-    width: 150px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    object-fit: cover;
-}
-
-.card-inner-cont:hover{
-    color: white;
-    transition: 1s;
-}
-
-.card-inner-cont:hover .card-image {
-    filter: blur(14px);
-    transition: 0.2s;
+    padding-left: 20px;
+    padding-right: 20px;
 }
