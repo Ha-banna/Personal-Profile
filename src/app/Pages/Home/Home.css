@@ -15,7 +15,7 @@ h1{
 }
 
 span{
-    background: linear-gradient(to left, chartreuse, rgb(30, 145, 7), chartreuse);
+    background: linear-gradient(to left, chartreuse, rgb(19, 102, 2), chartreuse);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-size: 200%;

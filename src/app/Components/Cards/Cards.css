@@ -1,0 +1,27 @@
+.card{
+    border-radius: 10px;
+    border: 2px solid chartreuse ;
+    background: linear-gradient(160deg, transparent, transparent, chartreuse, rgb(30, 145, 7));
+    height: 200px;
+    width: 150px;
+    margin-top: 20px;
+    background-size: 940%;
+    transition: 0.4s;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover{
+    background-position: 100%, 100%;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.card>img{
+    
+    height: 200px;
+    z-index: -22;
+}
