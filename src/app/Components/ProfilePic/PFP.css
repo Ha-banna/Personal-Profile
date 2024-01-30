@@ -1,11 +1,9 @@
 .profile-pic{
-    border-radius: 50%;
     width: 400px;
     object-fit: cover;
 }
 
 .pfp-cont{
-    border-radius: 50%;
     aspect-ratio: 1/1;
     width: 400px;
     height: 400px;
@@ -15,11 +13,23 @@
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+    border-radius: 50%;
 }
 
 .pfp-cont:hover{
     border: 3px solid chartreuse;
-    box-shadow: 0 0 20px 5px rgba(127, 255, 0, 0.5);
+    box-shadow: 0 0 20px 3px rgba(127, 255, 0, 0.5);
     transform: scale(1.05);
     transition: 0.3s;
+}
+
+@media screen and (max-width: 500px) {
+    .profile-pic{
+        width: 250px;
+        height: 250px;
+    }
+    .pfp-cont{
+        width: 250px;
+        height: 250px;
+    }
 }

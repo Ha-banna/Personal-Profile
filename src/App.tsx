@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 import Home from './app/Pages/Home/Home';
 import Header from './app/Components/Header/Header';
 import Projects from './app/Pages/Projects/Projects';
+import Aboutme from './app/Pages/AboutMe/Aboutme';
 
 function App() {
 
@@ -23,8 +24,6 @@ function App() {
     fetchData();
   }, []);
 
-  console.log(data)
-
   return (
     <>
       <Router>
@@ -34,7 +33,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Home></Home>}/>
               <Route path='/projects' element={<Projects data={data}></Projects>}/>
-              <Route path='/aboutme' element={<></>}/>
+              <Route path='/aboutme' element={<Aboutme></Aboutme>}/>
             </Routes>
           
         </>

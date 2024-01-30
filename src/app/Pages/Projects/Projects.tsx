@@ -17,7 +17,7 @@ function Projects(props: {data:Array<Object>}){
             </div>
             <h1>My Resume</h1>
             <div className='resume-cont'>
-                <embed src={resume} height='1000px' type="application/pdf"/>
+                <embed className='resume' src={resume} type="application/pdf"/>
             </div>
         </>
     );

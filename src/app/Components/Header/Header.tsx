@@ -7,7 +7,7 @@ export default function Header (){
     return(
         <>
             <header>
-                <Link to='/'><img src={logo} className='logo-img'></img></Link>
+                <Link to='/'><img src={logo} className='logo-img' alt='logo'></img></Link>
                 <div className='nav-cont'>
                     <Nav to='/' totxt='Home'></Nav>
                     <Nav to='/projects' totxt='Projects'></Nav>

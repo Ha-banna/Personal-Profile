@@ -31,3 +31,13 @@ header{
     left: 10px;
     top: 10px;
 }
+
+@media screen and (max-width: 500px) {
+    .logo-img{
+        display: none;
+    }
+
+    .hr{
+        width: 80%;
+    }
+}
