@@ -4,10 +4,12 @@ export default function Skills() {
     const skills = [
         { name: 'Python', proficiency: 90 },
         { name: 'Java', proficiency: 85 },
-        { name: 'JavaScript', proficiency: 80 },
+        { name: 'JavaScript', proficiency: 85 },
+        { name: 'PostgreSQL', proficiency: 75 },
         { name: 'React.js', proficiency: 75 },
-        { name: 'MySQL', proficiency: 70 },
-        { name: 'FastAPI', proficiency: 65 },
+        { name: 'MySQL', proficiency: 75 },
+        { name: 'FastAPI', proficiency: 70 },
+        { name: 'Node.js', proficiency: 65 },
     ];
 
     return (
