@@ -1,0 +1,20 @@
+a {
+    color: #7fff00;
+    text-decoration: none; /* Optional: remove underline */
+}
+
+a:visited {
+    color: #7fff00;
+}
+
+a:hover {
+    color: #7fff00;
+}
+
+a:active {
+    color: #7fff00;
+}
+
+a:focus {
+    color: #7fff00;
+}

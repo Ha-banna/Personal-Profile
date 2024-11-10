@@ -1,27 +1,24 @@
 import './Aboutme.css'
 import LongText from '../../Components/LongText/LongText';
+import Skills from '../../Components/Skills/Skills';
 
-export default function Aboutme(){
-    return(
+export default function Aboutme() {
+    return (
         <>
             <LongText>
-                Hello! I'm a passionate Computer Science student at Al Hussein Technical University (HTU) in Jordan. I have a strong interest in problem-solving and technology, and I am always eager to learn more and tackle new challenges.
-                <br/>
-                <br/>
-                Throughout my academic journey, I've gained a solid foundation in computer science principles and hands-on experience in coding and software development. I'm proficient in several programming languages, including Java, Python, C, and JavaScript. My expertise extends to web development with a focus on React.js, CSS, and JavaScript, allowing me to create beautiful web frontends like this.
-                <br/>
-                <br/>
-                I have also use Python and FastAPI, to create a backend an dmake more interesting projects. My understanding of relational databases (MySQL and PostgreSQL) also helps me make better and better web applications.
-                <br/>
-                <br/>
-                Being at HTU has provided me with the opportunity to work on a variety of projects, where I've applied these skills in real-world scenarios. These experiences have taught me the importance of teamwork and collaboration in achieving common goals, and have honed my ability to lead and contribute to diverse teams.
-                <br/>
-                <br/>
-                In addition to my technical skills, I love to learn new things. I'm excited about the future of technology and my role in shaping it. I believe that continuous learning and improvement is the key to success in the ever-evolving tech industry.
-                <br/>
-                <br/>
-                Outside of academics, I enjoy reading about the latest tech trends and playing video games.
+                Hello! I'm Hamza Albanna, a Computer Science student with a strong foundation in software development and web technologies. I have experience as a freelance web developer, creating intuitive user interfaces and dynamic web applications using technologies like React.js, Node.js, and Tailwind CSS.
+                <br />
+                <br />
+                My technical skills span programming languages such as Python, Java, C, MySQL, and PostgreSQL. I am also proficient in tools like Numpy, Pandas, and frameworks such as FastAPI. My expertise extends to OOP design, data structures, and machine learning. Some of my notable projects include a Phone Price Predictor and a real-time Quick Chat application leveraging Google OAuth2 authentication.
+                <br />
+                <br />
+                I am eager to bring my skills and enthusiasm to new challenges and opportunities, always driven by a passion for continuous learning and problem-solving.
+                <br />
+                <br />
+                Connect with me on <a target='_blank' href='https://www.linkedin.com/in/hamza-a-albanna-3a4737200'>LinkedIn</a> or explore my work on <a target='_blank' href='https://github.com/Ha-banna'>GitHub</a>.
             </LongText>
+
+            <Skills/>
         </>
     );
 }

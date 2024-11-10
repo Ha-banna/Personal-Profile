@@ -1,0 +1,39 @@
+.skills-section {
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+}
+
+.skills-section h2 {
+    margin-bottom: 16px;
+    color: white; /* Optional: Adjust for visibility */
+}
+
+.skill {
+    margin-bottom: 12px;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: block;
+    color: white; /* Optional: Adjust for visibility */
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.progress {
+    height: 100%;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    background: linear-gradient(to right, #7fff00, green); /* Gradient from #7fff00 to green */
+}
