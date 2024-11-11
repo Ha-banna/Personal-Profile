@@ -9,6 +9,7 @@
     "@types/node": "^16.18.71",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.28.0",
@@ -16,11 +17,14 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://Ha-banna.github.io/Personal-Profile",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
